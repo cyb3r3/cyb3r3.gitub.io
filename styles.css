@@ -446,3 +446,20 @@ footer span { color: var(--purple-hi); }
   background: rgba(123,94,203,.22);
   border-color: var(--purple-hi);
 }
+
+/* ── COURSE BADGES ── */
+.course-badge {
+  display: inline-block;
+  font-size: .72rem;
+  padding: .3em .75em;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  background: var(--bg2);
+  transition: border-color .15s, color .15s;
+}
+
+.course-badge:hover {
+  border-color: var(--purple);
+  color: var(--text);
+}
