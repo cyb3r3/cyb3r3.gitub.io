@@ -214,7 +214,7 @@ nav {
 }
 
 .photo-wrap::before {
-  content: '[ img:waterfall-va.jpg ]';
+  /*content: '';*/
   position: absolute;
   top: -1.4rem;
   left: 0;
